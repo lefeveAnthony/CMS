@@ -1,0 +1,183 @@
+*{
+	margin : 0;
+	padding : 0;
+	border : none;
+}
+
+
+@font-face{
+	font-family : "Lobster";
+	src : url('../fonts/Lobster.ttf');
+}
+
+
+#homePage{
+	width : 100%;
+	text-align : center;
+	margin-top : 15%;
+}
+
+#homePage h1{
+	font-family : "Lobster";
+	font-size : 3em;
+	margin-bottom : 5%;
+}
+
+a{
+	text-decoration : none;
+	font-size : 1.5em;
+	color : #FFF;
+	font-family : "Lobster";
+	border : 1px solid #222;
+	border-radius : 20px;
+	padding : 10px;
+	background-color : #222;
+}
+
+
+#menu{
+	background-color : #222;
+	list-style-type : none; 
+	text-align : center;
+}
+
+#menu li{
+	display : inline-block;
+
+}
+
+
+#logsubPage{
+	width : 60%;
+	margin : 10% auto;
+	text-align : center; 
+}
+
+
+
+#logsubPage h2{
+	font-family : "Lobster", sans-serif;
+	font-size : 2em;
+}
+
+#logsubPage #subBox, #logsubPage #logBox{
+	text-align : center; 
+	display : inline-block; 
+	vertical-align : top;
+	margin : 0 5%;
+}
+
+input{
+	margin-top : 10%;
+	text-align : center;
+	outline : none;
+	width : 300px;
+	height : 30px;
+	border-top : 1px solid rgba(0, 0, 0, 0.3);
+	border-bottom : 1px solid rgba(0, 0, 0, 0.3);
+}
+
+input:focus{
+	border-top : 1px solid #222;
+	border-bottom : 1px solid #222;
+}
+
+input[type=submit]{
+	background-color : #222;
+	font-family : "Lobster";
+	font-size : 1em;
+	color : #FFF;
+	border-radius : 20px;
+	width : 200px;
+	cursor : pointer;
+
+}
+
+#adminPage{
+	width : 100%;
+	text-align : center;
+}
+
+#adminPage #profil{
+	margin : 10% 0;
+}
+
+#adminPage #profil h2{
+	font-family : "Lobster", sans-serif;
+	font-size : 2em;
+	margin-bottom : 1%;
+}
+
+#adminPage input{
+	margin : 0;
+	margin-bottom : 20px;
+}
+
+
+#categoriesPage{
+	width : 100%;
+}
+
+#categoriesPage #categoriesList{
+	width : 60%;
+	margin : 10% auto;
+
+}
+#categoriesPage #categoriesList h2{
+	font-family : "Lobster", sans-serif;
+	font-size : 2em;
+	margin-bottom : 5%;
+}
+
+#categoriesPage #categoriesList h3{
+	margin : 0 auto;
+	font-family : "Lobster", sans-serif;
+	font-size : 2em;
+	padding : 1%;
+	border : 1px solid rgba(0, 0, 0, 0.3);
+	border-radius : 20px;
+}
+
+#categoriesPage #categoriesList h3 a{
+	text-decoration : underline;
+}
+
+#categoriesPage #categoriesList a{
+	text-decoration : none;
+	color : #222;
+	font-family : "Lobster";
+	border : none;
+	font-size : inherit;
+	border-radius : none;
+	padding : 0;
+	background-color : transparent;
+}
+ 
+#newCategoryPage{
+	width : 100%;
+}
+
+#newCategoryPage #newCatgoryBox{
+	width : 60%;
+	margin : 20% auto;
+	text-align : center;
+
+}
+
+#newCategoryPage #newCatgoryBox h2{
+	font-family : "Lobster", sans-serif;
+	margin-bottom : 1%; 
+}
+
+#newCategoryPage #newCatgoryBox input{
+	margin : 1%;
+}
+
+#descCate{
+	outline : 0;
+	border : 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#newArticlesPage #{
+
+}
